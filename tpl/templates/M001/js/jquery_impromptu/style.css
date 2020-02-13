@@ -1,0 +1,116 @@
+/* CSS Document */
+.jqifade{
+      position: absolute; 
+      background-color: #000; 
+}
+div.jqi{ 
+      width: 670px; 
+      font-family: "微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif; 
+      position: absolute;      
+      font-size: 11px; 
+      text-align: left;       
+      
+	background-color: #FFFFFF;
+    border: 10px solid #FF3C00;
+-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+-webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+}
+div.jqi .jqicontainer{ 
+      font-weight: bold; 
+	  background:#fff;
+}
+div.jqi #jqistates{background:#fff;}
+div.jqi .jqiclose{ 
+	  
+	  position:absolute;display:block;right:12px;top:8px;font-size:14px;
+	  background:url("icon15.gif") no-repeat left top;
+	width: 19px!important;
+	height: 19px!important;
+	cursor:pointer;display:inline-block; text-indent:-999em;transition:all 0.3s ease-in-out 0s;
+}
+div.jqi .jqiclose:hover{ transform:rotate(180deg);}
+div.jqi .jqimessage{ 
+      padding:10px; 
+      line-height: 20px; 
+      color: #333; 
+	  font-family:"微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif;
+	  font-size:14px;
+	  font-weight:normal;
+	  /*height:30px;*/
+	  line-height:30px;
+	  background:#fff;
+	  min-height:50px;
+	  _height:50px;
+}
+div.jqi .jqimessage img{ vertical-align:middle;}
+div.jqi .jqimessage p,div.jqi .jqimessage p input,div.jqi .jqimessage #ask_form{ color:#333;}
+div.jqi .jqibuttons{ 
+      text-align: center; 
+      padding: 5px 0 10px 0; 
+     
+      background: #fff;
+}
+div.jqi button{ 
+      padding: 4px 14px;
+      margin: 0 10px; 
+      background-color: #FF3C00;
+	  border-radius:5px;
+      border:none; 
+      color: #ffffff;       
+      font-size: 14px; 
+	  cursor:pointer;
+	  font-family:"微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+ 
+div.jqi button.jqidefaultbutton{ 
+      background-color: #F96234;
+	  cursor:pointer;
+}
+.jqiwarning .jqi .jqibuttons{ 
+      background-color: #F96234;
+}
+.input_button{ 
+      padding: 0px 10px;
+      border: solid 1px #515151; 
+      color: #ffffff;  
+      font-size: 12px;
+	  height:22px;
+	  background-color:#515151;
+	  float:left; 
+	  margin-left:10px;
+}
+.infoinfo {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#FEFFDF 4px 4px;
+	border:1px dashed #F8BA4E;
+	
+	font-size:12px;
+	font-weight:normal;
+	line-height:14px !important;
+	margin:8px 0 12px;
+	padding:4px 4px 4px 0px ;
+}
+a.del{
+	padding-left:30px;  
+	background:url("../../img/delete.gif.html") 15px 2px no-repeat; 
+	display:block; 
+	float:left; 
+	width:30px; 
+	height:20px; 
+	color:#333;
+	font-weight:normal;
+}
+a.add{
+	padding-left:30px;  
+	background:url("../../img/adda.gif.html") 15px 2px no-repeat; 
+	display:block; 
+	float:left; 
+	width:30px; 
+	height:20px; 
+	color:#333;
+	margin:8px 0 12px;
+	font-weight:normal;
+}

@@ -1,0 +1,22 @@
+*{ margin: 0; padding: 0; }
+body,td,th,p,div { font-family: 微软雅黑; font-size: 16px; margin: 0px; line-height:150%; color: #555;}
+#ErrNote{
+margin:0 auto;
+margin-top:10em;
+width:600px;
+height:300px;
+text-align:center;
+border:solid 1px;
+background:url("images/mainbg.png");
+}
+.ErrTitle{
+background:url("images/mlogo.png.html") no-repeat;
+text-align:left;
+height:60px;
+padding-left:240px;
+padding-top:20px;
+color:#FFFFFF;
+}
+.ErrMsg{
+padding-top:20px;
+}
